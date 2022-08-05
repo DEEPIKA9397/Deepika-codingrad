@@ -1,0 +1,63 @@
+Terraform Scripts
+provider "aws" {
+region = "jvjvj"
+}
+
+/*resouce "aws_vpc" "stgearea" {
+cidr_block = "j48978949"
+tags =  {
+name = sandep
+}
+}
+*/
+resore "aws_subnet" "stgeare"  {
+vpc_id = aws_vpc.vpc-8055775"
+cidr_block =, "9584049"
+tags = {
+name = "sansub"
+}
+}
+
+resurce "s3_bucket" "examp" {
+tags = {
+name = "dslqshclksqhcl"
+}
+}
+
+resourec "aws_ebs_volume" "exp" {
+availabliy_zone = "ap-1a" 
+size = 40
+tags = {
+name= xjx
+}
+}
+resource "aws_db_instance" "deft" {
+alocated_storage = 10
+engine = "mysql"
+engine_version = "5.6"
+instance_class = "m5.micro"
+name = "mydb"
+username = "ecdbinstall"
+password = "ecdbonstall"
+paratmeter_grop_name= ""
+skip_final_snapshot true
+
+terraform fmt
+
+resorce "aws_efs_file_system" "ex" {
+creation_token = "one"
+tags = {
+name = "one"
+}
+}
+
+tf Qs
+
+dynamic 
+cidr_block
+terraform lifecycle 
+commands
+loops for each for loop diff
+terraform workspace
+terraform refresh(but not recommeneded in realtym)
+clouffor vs terraform
